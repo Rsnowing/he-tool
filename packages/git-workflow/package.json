@@ -1,5 +1,5 @@
 {
-  "name": "@he/git",
+  "name": "@llhe/git",
   "version": "0.0.1",
   "description": "开发时 git自动化流程",
   "main": "./src/index.js",
