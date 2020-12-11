@@ -1,0 +1,32 @@
+{
+  "name": "@he/git",
+  "version": "0.0.1",
+  "description": "开发时 git自动化流程",
+  "main": "./src/index.js",
+  "scripts": {
+    "version": "node ./src/index --version",
+    "start": "node ./src/index --start",
+    "dev": "node ./src/index -d",
+    "test": "node ./src/index --test",
+    "pre": "node ./src/index --pre",
+    "end": "node ./src/index --end",
+    "help": "node ./src/index --help",
+    "mul": "node ./src/index --dev --test",
+    "check": "node ./src/index -c ddd eee",
+    "remove": "node ./src/index --remove ddd eee "
+  },
+  "bin": {
+    "g": "bin/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rsnowing/he-tool.git"
+  },
+  "homepage": "https://github.com/Rsnowing/he-tool#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.0"
+  }
+}
