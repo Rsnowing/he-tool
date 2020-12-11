@@ -1,6 +1,6 @@
 开发时 git自动化流程
 
-安装： npm i -g dev-git
+安装： npm i -g @he/git
 
 0. 从master 签出 dev test
 1. merge dev test => push
