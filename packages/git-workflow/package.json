@@ -28,5 +28,9 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^6.2.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   }
 }
