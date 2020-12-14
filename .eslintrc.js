@@ -20,6 +20,7 @@ module.exports = {
     quotes: ['error', 'single'],
     'no-console': 'off',
     'no-var-requires': 'off',
-    '@typescript-eslint/ban-types': 'off'
+    '@typescript-eslint/ban-types': 'off',
+    '@typescript-eslint/no-var-requires': 'off'
   }
 };
