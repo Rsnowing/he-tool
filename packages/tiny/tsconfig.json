@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "baseUrl": ".",
+      "target": "ES5",
+      "sourceMap": false,
+      "module": "commonjs",
+      "declaration": true,
+      "declarationDir": "typings/",
+      "outDir": "./dist/",
+		  "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules", "**.d.ts"],
+  "watch": true
+}
