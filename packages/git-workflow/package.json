@@ -27,8 +27,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^6.2.0",
-    "tinify": "^1.6.0-beta.2"
+    "commander": "^6.2.0"
   },
   "private": false,
   "publishConfig": {

@@ -47,7 +47,6 @@
     ]
   },
   "dependencies": {
-    "@llhe/axios": "file:packages\\axios",
     "@llhe/git": "file:packages\\git-workflow",
     "@llhe/tiny": "file:packages\\tiny"
   }
